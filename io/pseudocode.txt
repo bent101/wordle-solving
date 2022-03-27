@@ -1,0 +1,24 @@
+add root node to queue
+    - possible answers = all answers
+    - guesses = 0
+
+while queue isnt empty {
+    node = queue.pop
+        - each node has a cumulative hint, list of possible answers, number of guesses (i.e. depth), and number of paths leading to it
+    for each guess {
+        for each possible answer {
+            pretend this answer is the answer
+            get the hint
+            find all the other answers that this hint could point to
+            remove them from remaining answers
+            add to the list a node with these answers, this hint, depth + 1
+        }
+    }
+    sort guesses by eliminations
+
+}
+
+ways to specify a pool of answers:
+    - list of indeces
+    - predicate (cumulative hint)
+        - multiple predicates could result in the same pool of answers
