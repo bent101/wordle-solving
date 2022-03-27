@@ -1,16 +1,2 @@
 /.vscode
-/Answer.class
-/AnswerPool.class
-/DetailedHint$DuplicateCharacter.class
-/DetailedHint.class
-/Guess.class
-/HardModeWordleGame.java
-/Opening.class
-/SequentialHint$1.class
-/SequentialHint$LetterHint.class
-/SequentialHint.class
-/WordleCalculator.class
-/WordleGame$GameState.class
-/WordleGame.class
-/WordleGameTreeDFS.class
-/WordleWord.class
+/*.class
